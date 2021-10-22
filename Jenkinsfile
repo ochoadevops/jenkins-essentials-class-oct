@@ -17,7 +17,7 @@ pipeline {
          steps {
             echo 'Getting Private Repo'
             git(
-               url: 'git@github.com:ochoadevops/jenkins-essential-app-form.git',
+               url: 'git@github.com:ochoadevops/jenkins-essentials-class-oct.git',
                credentialsId: 'jenkins',
                branch: 'main'
             )
