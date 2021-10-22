@@ -26,3 +26,5 @@ public class SomeTest extends TestFormApplication {
       String thisTestGender = testUser.getGender();
       assertEquals("Female", thisTestGender);
    }
+   
+}
