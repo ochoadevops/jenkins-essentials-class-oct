@@ -18,7 +18,7 @@ pipeline {
             echo 'Getting Private Repo'
             git(
                url: 'git@github.com:ochoadevops/jenkins-essentials-class-oct.git',
-               credentialsId: 'jenkins',
+               credentialsId: 'jenkins-id',
                branch: 'main'
             )
 
